@@ -21,7 +21,7 @@ Also, we are going to use attribute selectors.  Attribute selectors allow you to
 So, the syntax is 'element[attribute]'.  So what this will look like in a real world example is 'div[class="container"]'.  This will target all div's with a class of container.
 
 Here are some more options you can use:
-'''
+```
 [attr="external"] - Attribute matches exact value
 [attr*="www"] - Attribute matches certain value anywhere
 [attr^="foo-bar"] - Attribute begins with certain value
@@ -29,4 +29,4 @@ Here are some more options you can use:
 [attr~="class"] - Attribute targets space separated list
 [attr|="class"] - Attribute targets dash separated list
 [attr="class"][input="name"] - You can also string them together
-'''
+```
