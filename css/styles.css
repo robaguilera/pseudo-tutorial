@@ -1,0 +1,176 @@
+/* ========== Typography Settings ========== */
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Ovo', serif;
+}
+
+p,
+a,
+li {
+  font-family: 'Muli', sans-serif;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 3.998em;
+  color: #FFF;
+}
+
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* ========== Nav Settings ========== */
+
+header  {
+	width: 100%;
+  color: #FFF;
+  background: transparent;
+  height: 80vh;
+  position: absolute;
+}
+
+header ul {
+	margin: 0 auto;
+	text-align: center;
+}
+
+header ul li {
+	display: inline-block;
+	margin-left: 1em;
+        margin-top: 2em;
+}
+
+/* ========== Layout Settings ========== */
+body {
+  background: linear-gradient(to bottom, #594E5E 72%, #CC9975);
+}
+
+.top {
+  width: 100%;
+  text-align: center;
+  background: #594E5E;
+  height: 80vh;
+  position: relative;
+}
+
+.top h1 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #FFF;
+  border: 2px solid #efefef;
+  border-radius: 10px;
+
+}
+
+.container {
+  margin: 2em 0;
+  padding: 0 2em;
+}
+
+.row-container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-container ul {
+  text-align: center;
+}
+
+.row-container li {
+  margin: .7em 0;
+}
+
+/*Clearfix for Container*/
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container p {
+  padding: 1em 6em;
+}
+
+
+form {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  border: 2px solid #d6d6d6;
+  border-radius: 10px;
+  text-align: center;
+  background: #efefef;
+  padding: 2em 0;
+}
+
+form input,
+form textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-buttons {
+  margin-top: 1em;
+  color: #fefefe;
+}
+
+button {
+  background: tomato;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 1em;
+  color: #FFF;
+  border: 0;
+  padding: 10px;
+}
+
+
+/* ========= (Ze Footer) ========== */
+.footer-l {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-l li {
+  display: inline-block;
+}
+
+.footer-l a {
+  color: #594E5E;
+}
+.top-links {
+  margin-top: 1em;
+}
+
+.bottom-links {
+  margin-bottom: 1em;
+}
+
+
