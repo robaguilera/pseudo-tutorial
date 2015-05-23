@@ -8,12 +8,14 @@ A pseudo-class, together with pseudo-elements, allow you to apply a style to eit
 For example, to target the hover state of an element 'link:hover' will allow you to do change whatever styling you want to a link, once it's hovered over.  
 
 So, here's your task.  You're going to recreate the mockup by using the following pseudo-classes.
-*:before
-*nth-child() [Visit Here For Info on nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
-*:first-letter
-*:nth-of-type 
-*:hover
-*:focus
+```
+:before
+nth-child() [Visit Here For Info on nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
+:first-letter
+:nth-of-type 
+:hover
+:focus
+```
 
 ## Direct Selectors
 Also, we are going to use attribute selectors.  Attribute selectors allow you to select an element using the presence of a given attribute or value.
