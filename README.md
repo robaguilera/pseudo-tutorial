@@ -29,3 +29,4 @@ Here are some more options you can use:
 [attr~="class"] - Attribute targets space separated list
 [attr|="class"] - Attribute targets dash separated list
 [attr="class"][input="name"] - You can also string them together
+'''
