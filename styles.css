@@ -1,0 +1,342 @@
+/* ========== Typography Settings ========== */
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Ovo', serif;
+}
+
+p,
+a,
+li {
+  font-family: 'Muli', sans-serif;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 3.998em;
+  color: #FFF;
+}
+
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* ========== Nav Settings ========== */
+
+header  {
+	width: 100%;
+  color: #FFF;
+  background: transparent;
+  height: 80vh;
+  position: absolute;
+}
+
+header ul {
+	margin: 0 auto;
+	text-align: center;
+}
+
+header ul li {
+	display: inline-block;
+	margin-left: 1em;
+        margin-top: 2em;
+}
+
+/* ========== Layout Settings ========== */
+body {
+  background: linear-gradient(to bottom, #594E5E 72%, #CC9975);
+  line-height: 1.2;
+}
+
+.top {
+  width: 100%;
+  text-align: center;
+  background: #594E5E;
+  height: 80vh;
+  position: relative;
+}
+
+.top h1 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.mid {
+  position: relative;
+}
+
+.mid h4 {
+  padding: 0 2em;
+}
+
+.wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #FFF;
+  border: 2px solid #efefef;
+  border-radius: 10px;
+
+}
+
+.container {
+  margin: 2em 0;
+  padding: 0 2em;
+}
+
+.row-container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-container ul {
+  text-align: center;
+}
+
+.row-container li {
+  margin: .7em 0;
+  padding-top: 10px;
+  height: 30px;
+}
+
+/*Clearfix for Container*/
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container p {
+  padding: 1em 6em;
+}
+
+
+form {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  border: 2px solid #d6d6d6;
+  border-radius: 10px;
+  text-align: center;
+  background: #efefef;
+  padding: 2em 0;
+}
+
+form input,
+form textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-buttons {
+  margin-top: 1em;
+  color: #fefefe;
+}
+
+button {
+  background: tomato;
+  transition: 300ms ease-in-out;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 1em;
+  color: #FFF;
+  border: 0;
+  padding: 10px;
+}
+
+
+/* ========= (Ze Footer) ========== */
+.footer-l {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-l li {
+  display: inline-block;
+}
+
+.footer-l a {
+  color: #594E5E;
+}
+.top-links {
+  margin-top: 1em;
+}
+
+.bottom-links {
+  margin-bottom: 1em;
+}
+
+/* ========= ( Mid Psuedo Classes) ========== */
+.mid:nth-child(1n):before {
+  content: "1";
+}
+
+.mid:nth-child(2n):before {
+  content: "2";
+}
+
+.mid-color:before {
+  content: "3";
+}
+
+.mid:before,
+.mid-color:before {
+  background: #242424;
+  border-radius: 100%;
+  color: #fefefe;
+  font-size: 3em;
+  padding: 20px;
+  position: absolute;
+  width: 60px;
+  height: 48px;
+  text-align: center;
+  margin-left: -2em;
+  margin-top: -1.4em;
+}
+
+.mid h4::first-letter {
+  font-family: 'Ovo', serif;
+  font-size: 2.5em;
+  line-height: 1em;
+  background-color: #cc9975;
+  color: #FFFFFF;
+  width: 1em;
+  height: 1em;
+  float: left;
+  margin-right: .1em;
+  margin-top: -1rem;
+  border: .3rem double #FFF;
+}
+    
+/* ========= ( Row Psuedo Classes) ========== */
+.row-container li:nth-child(2n+1) {
+  background: #f5f9fc;
+  transition: 500ms ease-in-out;
+}
+.row-container li:nth-child(2n+1):hover {
+  background: #c0d9ec;
+}
+.row-container li:nth-child(2n) {
+  transition: 800ms ease-in-out;
+}
+.row-container li:nth-child(2n+2):hover {
+  background: #EFEFEF;
+}
+
+.row-container li:nth-last-child(1) {
+  background: #F6CDD5;
+}
+.row-container li:nth-last-child(1):hover {
+  background: #E9C279;
+}
+.row-container li:nth-child(-5n+5) {
+  background: lightgrey;
+}
+/* ========= ( Mid-Container Psuedo Classes) ========== */
+.genre li {
+  height: 200px;
+  display: inline-block;
+  margin-right: -5px;
+}
+
+.genre li:nth-of-type(1) {
+  width: 25%;
+  background: #FACB85;
+}
+.genre li:nth-of-type(2) {
+  width: 19.5%;
+  background: #6DCFF6;
+}
+.genre li:nth-of-type(3) {
+  width: 16%;
+  background: #F6F1F8;
+}
+.genre li:nth-of-type(3) {
+  width: 14%;
+  background: #F7F064;
+}
+.genre li:nth-of-type(4) {
+  width: 12%;
+  background: #ED5F1D;
+}
+.genre li:nth-of-type(5) {
+  width: 10%;
+  background: #F05692;
+}
+.genre li:nth-of-type(6) {
+  width: 8%;
+  background: #682E92;
+}
+.genre li:nth-of-type(7) {
+  width: 6%;
+  background: #784F31;
+}
+.genre li:nth-of-type(8) {
+  width: 3%;
+  background: #3AB54B;
+}
+.genre li:nth-of-type(9) {
+  width: 2%;
+  background: #ED1928;
+}
+/* ========= ( Mid-Container Psuedo Classes) ========== */
+input,
+textarea {
+  background: #fafafa;
+  margin-bottom: 1em;
+  width: 80%;
+  height: 30px;
+  font-size: 1.3em;
+  padding: 5px;
+}
+
+textarea {
+  height: 60px;
+}
+
+
+input[type="text"]:focus {
+  outline: 1px solid #FACB85;
+}
+
+input[type="email"]:focus {
+  outline: 1px solid #6DCFF6;
+}
+
+textarea:focus {
+  outline: 1px solid #ED1928;
+}
+
+a[href^="https"]{
+  color: #FEFEFE;
+  font-size: 1.5em;
+  text-decoration: none;
+  padding-left: .2em;
+}
+
+button[type="submit"]:hover{
+  background: #ff2b0d;
+}
+
+button[type="reset"]:hover {
+  background: #ffa08f;
+}
