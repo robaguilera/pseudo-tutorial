@@ -1,3 +1,4 @@
+## Welcome
 Welcome to our class on pseudo classes, elements, and attribute selectors.
 
 We will be learning how to create elements and target elements without having to tweak our markup.  
@@ -10,7 +11,7 @@ For example, to target the hover state of an element 'link:hover' will allow you
 So, here's your task.  You're going to recreate the mockup by using the following pseudo-classes.
 ```
 :before
-nth-child() [Visit Here For Info on nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
+nth-child() 
 :first-letter
 :nth-of-type 
 :hover
@@ -32,3 +33,8 @@ Here are some more options you can use:
 [attr|="class"] - Attribute targets dash separated list
 [attr="class"][input="name"] - You can also string them together
 ```
+
+## Resources
+[Visit Here For Info on nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
+[Attribute Selectors](https://css-tricks.com/attribute-selectors/)
+[Children and Sibling Selectors](https://css-tricks.com/child-and-sibling-selectors/)
