@@ -35,6 +35,6 @@ Here are some more options you can use:
 ```
 
 ## Resources
--[Visit Here For Info on nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
--[Attribute Selectors](https://css-tricks.com/attribute-selectors/)
--[Children and Sibling Selectors](https://css-tricks.com/child-and-sibling-selectors/)
+*[Visit Here For Info on nth-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
+*[Attribute Selectors](https://css-tricks.com/attribute-selectors/)
+*[Children and Sibling Selectors](https://css-tricks.com/child-and-sibling-selectors/)
